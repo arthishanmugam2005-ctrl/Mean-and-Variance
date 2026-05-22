@@ -85,7 +85,8 @@ SD = np.sqrt(var)
  Printing X and p(x)
 print("\nX\tp(x)")
 for i in range(M + 1):
-    if f[i] > 0:   # Only print arrivals that actually occurred
+    if f[i] > 0:   
+Only print arrivals that actually occurred
         print(f"{X[i]}\t{p[i]:.3f}")
 
 print(f"\nThe Mean arrival rate is {mean:.3f}")
